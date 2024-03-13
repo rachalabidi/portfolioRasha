@@ -1,0 +1,48 @@
+
+.typo{
+  
+    display: flex;
+    justify-content: center;
+    align-items:last baseline ;
+    min-height: 60vh;
+    
+}
+
+.im{
+    font-size:60px;
+    padding: 15px;
+    
+    color: rgba(12, 12, 12, 0.801);
+}
+.text{
+    border-right: rgba(12, 12, 12, 0.801) SOLID ;
+    font-size: 70px;
+    color: WHITE;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+
+    .typo {
+       display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 60vh;
+      list-style-type: none;
+      padding: 10;
+     
+      
+      
+    }
+  
+    .im {
+      font-size: 40px;
+      margin-top: auto;
+    }
+  
+    .text {
+      font-size: 50px;
+     
+    }
+  }

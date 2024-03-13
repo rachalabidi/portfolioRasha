@@ -1,0 +1,161 @@
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+
+
+
+.coffee-bean {
+  position: absolute;
+  width: 75px;
+  height: 80px;
+  top: 30px;
+  left: 30px;
+  background: url(../coffee-bean_9241250.png)
+    no-repeat center;
+  background-size: cover;
+}
+.menu{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  top: 50px;
+  left: 1000px;
+  z-index: 1;
+}
+.home {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color: rgba(12, 12, 12, 0.801);
+  font-family: Jaldi, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50.698px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.projects {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color:  rgba(12, 12, 12, 0.801);
+  font-family: Jaldi, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50.698px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.about {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color:  rgba(12, 12, 12, 0.801);
+  font-family: Jaldi, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50.698px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.contact {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color: rgba(12, 12, 12, 0.801);
+  font-family: Jaldi, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50.698px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+
+
+/* nav.css */
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(12, 12, 12, 0.801);
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .close-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color:rgba(12, 12, 12, 0.801) ;
+  }
+  .menu a {
+    text-decoration: none; /* Remove underline from all menu links */
+  }
+  
+  @media (max-width: 768px) {
+
+    .coffee-bean {
+       
+        width: 55px;
+        height: 50px;
+        top: 10px;
+        left: 5px;
+        
+      }
+    .menu-toggle {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 10;
+      
+    }
+    
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      gap: 1px;
+      margin: 30px 120px;
+    }
+   
+  
+    .navbar.open .menu {
+      display: flex;
+      
+    }
+  }
+  
