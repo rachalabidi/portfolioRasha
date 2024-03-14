@@ -1,25 +1,19 @@
 import React from 'react';
 import './App.css';
-import VideoBackground from "./components/VideoBackground";
-import NavBar from "./components/NavBar";
-import Typo from "./components/Typo";
-import Media from "./components/Media";
+// import Home from "./pages/Home";
+import About from './pages/About';
+
 
 
 
 const App = () => {
   return (
-    <div  className="content">
+    <div  >
      
-     <VideoBackground/>
-      <div className="content">
-        <NavBar/>
-        <Typo/>
-        <Media/>
-       {/* <h1> hello</h1> */}
+     <About/>
+      
       </div>
-       
-    </div>
+ 
   );
 };
 

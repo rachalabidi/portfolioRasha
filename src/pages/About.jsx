@@ -4,20 +4,21 @@ import NavBar from "../components/NavBar";
 import Typo from "../components/Typo";
 import Media from "../components/Media";
 
-class home extends Component {
+class About extends Component {
     render() {
         return (
             <div>
+                 <div>
               <VideoBackground/>
       <div className="content">
         <NavBar/>
-        <Typo/>
-        <Media/>
+       
       
       </div>
+            </div>
             </div>
         );
     }
 }
 
-export default home;
+export default About;

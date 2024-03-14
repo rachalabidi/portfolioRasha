@@ -11,10 +11,10 @@
 
 .coffee-bean {
   position: absolute;
-  width: 75px;
-  height: 80px;
-  top: 30px;
-  left: 30px;
+  width: 45px;
+  height: 50px;
+  top: 50px;
+  left: 80px;
   background: url(../coffee-bean_9241250.png)
     no-repeat center;
   background-size: cover;
