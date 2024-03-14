@@ -4,9 +4,6 @@ import NavBar from "../components/NavBar";
 import Me from "../components/Me";
 import Media from "../components/Media";
 
-
-
-
 class About extends Component {
   render() {
     return (
@@ -14,11 +11,10 @@ class About extends Component {
         <div>
           <VideoBackground />
           <div className="content">
-              <NavBar />
-              
-           <Me/>
+            <NavBar />
+            <br></br>
 
-
+            <Me />
           </div>
         </div>
       </div>
