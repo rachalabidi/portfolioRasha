@@ -12,7 +12,7 @@ class home extends Component {
         <div className="content">
           <NavBar />
           <Typo />
-          <Media />
+           <Media />
         </div>
       </div>
     );

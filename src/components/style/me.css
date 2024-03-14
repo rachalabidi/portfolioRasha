@@ -1,0 +1,105 @@
+
+.loader-container {
+    display: flex;
+    width: 70%;
+    margin: 0 10%;
+    
+}
+
+.text-paragraph {
+   
+   
+   
+    padding: 220PX 0px;
+    width: 50%;
+}
+
+
+.loader {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90vh;
+    color: #fff;
+    opacity: 1;
+    pointer-events: none;
+    position: relative; /* Ensure the loader is positioned relatively */
+    width: 50%;
+}
+
+
+
+
+.cercle-loader {
+    height: 200px; /* Adjust the size of the inner content circle */
+    width: 200px;
+    background-image: url('../2eaa6161c507b285efa71386dff00822-removebg-preview.png');
+    background-size: cover;
+    border: 3px solid;
+    border-radius: 50%; /* Ensures that the content circle is a perfect circle */
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure the loader is positioned relatively */
+    animation: move-circles infinite linear 5s;
+
+}
+
+@keyframes move-circles {
+    0% {
+        transform: translateX(0) scale(1);
+        border-radius: 50%;
+    }
+    50% {
+        transform: translateX(-10px) scale(1.2);
+        border-radius: 60% 40% 40% 60% / 70% 50% 50% 30%;
+    }
+    100% {
+        transform: translateX(0) scale(1);
+        border-radius: 50%;
+    }
+}
+
+
+
+.icon1 {
+    width: 50px;
+    position: absolute;
+    top: 120%; /* Adjust icon position as needed */
+    left: 50%; /* Adjust icon position as needed */
+   
+}
+
+.icon2 {
+    width: 50px;
+    position: absolute;
+    top: -10%; /* Adjust icon position as needed */
+    left: 90%; /* Adjust icon position as needed */
+   
+}
+
+.icon3 {
+    width: 50px;
+    position: absolute;
+    top: 80%; /* Adjust icon position as needed */
+    left: 120%; /* Adjust icon position as needed */
+   
+}
+
+.icon4 {
+    width: 50px;
+    position: absolute;
+    top: -10%; /* Adjust icon position as needed */
+    left: -10%; /* Adjust icon position as needed */
+   
+}
+
+.icon5 {
+    width: 50px;
+    position: absolute;
+    top: 80%; /* Adjust icon position as needed */
+    left: -30%; /* Adjust icon position as needed */
+   
+}
