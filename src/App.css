@@ -1,13 +1,10 @@
 .app {
-    position: relative;
-  }
-  
-  
-  
-  .content {
-    position: relative; /* Change position to relative */
-    z-index: 1; /* Ensure the content is rendered above the video background */
-    text-align: center; /* Adjust as needed */
-    color: #ffffff; /* Text color */
-  }
-  
+  position: relative;
+}
+
+.content {
+  position: relative; /* Change position to relative */
+  z-index: 1; /* Ensure the content is rendered above the video background */
+  text-align: center; /* Adjust as needed */
+  color: #ffffff; /* Text color */
+}
