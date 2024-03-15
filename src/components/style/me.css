@@ -5,10 +5,17 @@
 }
 
 .text-paragraph {
+  font-family: var(--default-font-family);
+   color: rgba(12, 12, 12, 0.801);
   padding: 220px 0px;
   width: 50%;
 }
-
+.text-paragraph P{
+  font-weight: 0;
+}
+.text-paragraph h1{
+  font-weight: 600;
+}
 .loader {
   display: flex;
   justify-content: flex-end;
