@@ -1,24 +1,23 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+
 import VideoBackground from "../components/VideoBackground";
 import NavBar from "../components/NavBar";
-import Me from "../components/Me";
-
-class About extends Component {
-  render() {
-    return (
-      <div>
+import Formu from "../components/Formu";
+class Contact extends Component {
+    render() {
+        return (
+            <div>
         <div>
           <VideoBackground />
           <div className="content">
             <NavBar />
             <br></br>
-
-            <Me />
+            <Formu/>
           </div>
         </div>
       </div>
-    );
-  }
+        );
+    }
 }
 
-export default About;
+export default Contact;
