@@ -104,11 +104,16 @@
   .text-paragraph {
     width: 100%;
     margin: auto;
+    order: 2; /* Change the order of the text to appear after the image */
+
   }
 
   .loader {
+    margin-top: 25%;
     width: 100%;
-    height: 10vh;
+    height: 7vh;
+    order: 1; /* Change the order of the text to appear after the image */
+
   }
 
   .cercle-loader {
