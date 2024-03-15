@@ -18,10 +18,17 @@ class NavBar extends Component {
   render() {
     return (
       <div className={`navbar ${this.state.isOpen ? "open" : ""}`}>
+      {/* Overlay */}
+        {this.state.isOpen && <div className="overlay" onClick={this.toggleMenu}></div>}
+    
+        {/* Coffee bean */}
         <div className="coffee-bean" />
+    
+        {/* Menu toggle */}
         <div className="menu-toggle" onClick={this.toggleMenu}>
           {this.state.isOpen ? (
-            <div className="close-icon">&times;</div>
+           <div className="close-icon"> &times;
+           </div>
           ) : (
             <div className="hamburger-icon">
               <div className="bar" />
@@ -30,6 +37,8 @@ class NavBar extends Component {
             </div>
           )}
         </div>
+    
+        {/* Menu items */}
         <div className="menu">
           <a href="/" className="home">
             HOME
@@ -46,6 +55,7 @@ class NavBar extends Component {
         </div>
       </div>
     );
+    
   }
 }
 
